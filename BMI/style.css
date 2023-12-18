@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    margin-top: 180px;
+    background-color: #36454f;
+}
+
+.hdiv{
+    margin:10px;
+    color: aliceblue;
+}
+
+.wdiv{
+    margin: 10px;
+    color: aliceblue;
+}
+
+button{
+    background-color: lime;
+    color: aliceblue;
+    border: 0cap;
+    height: 25px;
+    width: 80px;
+}
+
