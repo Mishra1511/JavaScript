@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+.divclass{
+    background-color: black;
+    width:500px;
+    height: 200px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+.date{
+    padding-top: 50px;;
+}
