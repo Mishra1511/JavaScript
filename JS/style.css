@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+}
+.red{
+    background-color: red;
+    color: aliceblue;
+    border: 0cap;
+    margin: 10px;
+    height: 20px;
+    width: 80px;
+}
+
+.blue{
+    background-color: blue;
+    color: aliceblue;
+    border: 0cap;
+    margin: 10px;
+    height: 20px;
+    width: 80px;
+}
+
+.yellow{
+    background-color: #ffdb58;
+    color: aliceblue;
+    border: 0cap;
+    margin: 10px;
+    height: 20px;
+    width: 80px;
+}
+
+.green{
+    background-color: green;
+    color: aliceblue;
+    border: 0cap;
+    margin: 10px;
+    height: 20px;
+    width: 80px;
+}
+
+.black{
+    border: 0cap;
+    margin: 10px;
+    background-color: black;
+    color: aliceblue;
+    height: 20px;
+    width: 150px;
+}
