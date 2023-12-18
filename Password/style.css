@@ -1,0 +1,14 @@
+.pass{
+    background-color: lightgray;
+    height: 30px;
+    width: 300px;
+    position:absolute;
+}
+
+.btn{
+    background-color: lightgray;
+    position: relative;
+    left: 260px;
+    top:8px;
+    border: 0cap;
+}
