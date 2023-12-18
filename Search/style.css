@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    width:500px;
+}
+
+.search{
+    height:25px;
+    width:450px;
+    margin-top: 20px;
+}
+#mylist{
+    list-style-type: none;
+    padding: 0%;
+}
+li>a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    background-color: #f6f6f6;
+    margin-top: -1px;
+    border: 1px solid #ddd;
+}
+li a:hover{
+    background-color: #eee;
+}
+
