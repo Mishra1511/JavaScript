@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="task-wrapper">
+        <div class="tasks-lane" id="todo-lane">
+            <h3>To Do</h3>
+            <button class="additem" id="additem1">Add Item +</button>
+          </div>
+          <div class="tasks-lane" id="doing-lane">
+            <h3>Doing</h3>
+            <button class="additem" id="additem2">Add Item +</button>
+          </div>
+          <div class="tasks-lane" id="done-lane">
+            <h3>Done</h3>
+            
+            <button class="additem" id="additem3">Add Item +</button>
+          </div>
+          <div>
+            <input class="search" type="text" placeholder="Search...">
+          </div>
+    </section>
+    <button class="save" type="submit">Save</button>
+    <script src="./util.js"></script>
+    <script src="./main.JS"></script>
+</body>
+</html>
