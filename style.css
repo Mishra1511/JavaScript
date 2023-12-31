@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mooli', sans-serif;
+    text-align: center;
+}
+body{
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: 3rem;
+    background-image: url('./backimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.newinput{
+    flex-basis: 300px;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    position: relative;
+}
+.save{
+    flex-basis: 150px;
+    padding: 0.3rem;
+    border: none;
+    background-color: lightsalmon;
+    outline:none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+.task-wrapper{
+    margin-block: 2rem;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:2rem ;
+}
+
+.task-wrapper h3{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #faa0a0;
+}
+.task-wrapper p{
+    font-size: 1rem;
+}
+
+.tasks-lane {
+    background-color: #7d7;
+    min-height: 60vh;
+    padding: 1rem;
+    color: black;
+    opacity: 0.9;
+    text-align: center;
+  }
+  .task {
+    background-color: lavender;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-block: 0.7rem;
+    cursor: move;
+    transition: all 0.3s ease-in;
+    display: block;
+  }
+  
+  .task:hover {
+    transform: scale(1.05);
+  }
+  
+  .is-dragging{
+    transform: rotate(5deg);
+    background-color: #fff;
+    border: 1px solid black;
+  }
+.additem{
+   all:unset;
+   margin-top: 10px;
+}
